@@ -1,83 +1,110 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-  
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="icon.png" />
-  
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-      .
-    />
-  
-    <link rel="manifest" href="site.webmanifest" />
-    <meta name="theme-color" content="#fafafa" />
-  </head>
-  
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="utf-8" />
+            <title></title>
+            <meta name="description" content="" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          
+            <meta property="og:title" content="" />
+            <meta property="og:type" content="" />
+            <meta property="og:url" content="" />
+            <meta property="og:image" content="" />
+          
+            <link rel="icon" href="/favicon.ico" sizes="any" />
+            <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+            <link rel="apple-touch-icon" href="icon.png" />
+          
+            <link rel="stylesheet" href="css/normalize.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link
+              rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous"
+              .
+            />
+          
+            <link rel="manifest" href="site.webmanifest" />
+            <meta name="theme-color" content="#fafafa" />
+    </head>
+    <body>
+        <header>
+            <img src="b59a78e2ed76c705f3c0dcb300f3f222aefdcd99.png" alt="">
+          </header>
+      
+            <!-- Add your site or application content here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
 
-  <body>
-    <header>
-      <img src="b59a78e2ed76c705f3c0dcb300f3f222aefdcd99.png" alt="" 
-      display: flex;
-      align-items: center;
-      justify-content: center >
-    </header>
+              <a class="nav-link" href="./html.html">Html <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./htmlAtributes.html">atributos Html <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./css.html">Css <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div> 
 
-  <!-- Add your site or application content here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./html.html">Html <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./htmlAtributes.html">atributos Html<span class="sr-only">(current)</span></a>
-        </li>
+        </nav>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="./css.html">Css <span class="sr-only">(current)</span></a>
-        </li>
+
+
         
+       
+        <h2>Que puedes hacer con javaScript?</h2>
+        <p>Puedes cambiar el atributo src</p>
+
+        <image id="demo" src="./icon.png"></image>
         
-      </ul>
-    </div>
-  </nav>
-    
-  <main class="flex-shrink-0">
-    <div class="container" style="padding: 50px 15px 0;  margin: 130px;">
-      <p>Bienvenid@! en este curso aprenderás javascript, y como aplicarlo e interactuar con distintos elementos
-        html, y  jugar con los estilos css,  contamos con un conjunto de profesionales expertos en la meteria, que te ayudarán en el proceso 
-        y te asegura que acabes el curso con una base sólida en la materia
-      </p>
-        
-    </div>
-</main>
+        <button type="button" onclick='document.getElementById("demo").src = "./favicon.ico"'>Click Me!</button>
 
 
-  <!-- Footer -->
-<footer class="navbar flex-bottom text-center  text-lg-start bg-light text-muted">
+        <h2>Que puedes hacer con javaScript?</h2>
+        <p>Puedes eliminar atributos</p>
+
+        <image id="demo-eliminar" src="./favicon.ico"></image>
+        
+        <button type="button" onclick='document.getElementById("demo-eliminar").removeAttribute("src")'>Click Me!</button>
+
+        <h2>Que puedes hacer con javaScript?</h2>
+        <p>Puedes modificar la anchura</p>
+
+        <image id="demo-width" src="./favicon.ico"></image>
+        
+        <button type="button" onclick='document.getElementById("demo-width").width=60'>Click Me!</button>
+
+       
+        
+
+
+
+
+
+
+        
+
+        
+
+
+
+
+
+
+ <!-- Footer -->
+ <footer class="navbar flex-bottom text-center  text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center p-100 border-bottom">
     <!-- Left -->
